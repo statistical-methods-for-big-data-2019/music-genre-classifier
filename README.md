@@ -1,2 +1,2 @@
 # music-genre-classifier
-We used AcousticBrainz open data to fit a music genre classifier model.
+We used AcousticBrainz open data to fit a music genre classifier model. Data from every track (that is, our statistical unit) were recorded as JSON files, each one containing indicators yielded by spectral, armonic and rythom analysis of the acoustic signals. We had first to transform each track into a CSV row by normalizing JSON files and then to retrieve from the MusicBrainz databse, if not already present in the file, the tracks genre (that is, our target). We needed to simplify the probem by aggregating the hundreds of differnt genres in 9 classes (Pop-other, Rock, Blues, Funk, Jazz, Classical , Metal, Techno-House, Hip-Hop) 
