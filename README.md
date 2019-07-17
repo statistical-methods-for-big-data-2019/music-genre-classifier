@@ -6,6 +6,6 @@ We used [AcousticBrainz](https://acousticbrainz.org/) low-level [data](ftp://ftp
 
 ### The model
 
-We first aggregated the hundreds of differnt genres in 9 classes (*Pop-other*, *Rock*, *Blues*, *Funk*, *Jazz*, *Classical* , *Metal*, *Techno-House*, *Hip-Hop*) and, yet, the problem was still untractable. Since *Pop-other* and *Rock* classes were too generic and, coversely, *Funk* and *Blues* classes were too specific, we bdecided to focus on the classification of the remaining classes, ignoring all the tracks whose genre were too specific or too generic.
+We first aggregated the hundreds of different genres in 9 classes (*Pop-other*, *Rock*, *Blues*, *Funk*, *Jazz*, *Classical* , *Metal*, *Techno-House*, *Hip-Hop*) and, yet, the problem was still untractable. Since *Pop-other* and *Rock* classes were too generic and, coversely, *Funk* and *Blues* classes were too specific, we bdecided to focus on the classification of the remaining classes, ignoring all the tracks whose genre were too specific or too generic.
 We fitted *Lasso multi-logit regression*, *Ridge multi-logit regression* and *Linear Discriminant analysis*  models, each one on either dimensionality reduced data by means of *Principal Components Analysis* and original data. 
 The best model was *Linear Discrimant Analysis* on reduced data, which classified tracks' genre with an accuracy of about 86%
