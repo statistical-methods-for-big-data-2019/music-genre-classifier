@@ -12,19 +12,19 @@ The best model was *Linear Discrimant Analysis* on reduced data, which classifie
 
 ### tools
 
-- We used *Python 3.6* and the *Jupyter Notebook* either on local machines and on an *Hadoop cluser*. 
+- We used *Python 3.6* and the *Jupyter Notebook* either on local machines and on an *Hadoop cluster*. 
 - We implemented a simple *Python* module, named *ModuloProgetto*, which has been used to speed up data preprocessing 
 - We used the efficient and useful Classes contained in *SciKitLearn* module to fit models and reduce dimensionality
-- We researched optimal hyper-parameters by means of *Cross-Validation* which has been run in parallel on the the *Hadoop* cluster
-- *Google Cloud Platform* was used to build the *Hadoop* cluster of virtual machines
+- We researched optimal hyper-parameters by means of *Cross-Validation*, which has been run in parallel on the the *Hadoop* cluster
+- *Google Cloud Platform* has been used as a service to build the *Hadoop* cluster of virtual machines
 
 ### files
-- *ModuloProgetto* is the folder of the module mentioned i previous section
+- *ModuloProgetto* is the folder of the module mentioned in previous section
 - *Esplorazione file - spiegazione idea progetto* is the notebook (run on local machine) used to take a first look at data
 - *1_Trasformazione dati.ipynb* is the notebook (run on local machine) to transform data from *JSON* to *csv*
 - *2_analisi esplorativa.ipynb* is the notebook (run on local machine) in which data are explored and visualized
-- *3_Classificazione (GCP DataProc)* is the notebook (run on Hadoop cluster) in which we fit models and search for optimal hyper-parameters
-- *progetto MSDB* is a *PDF* which contains the project presentation slides
+- *3_Classificazione (GCP DataProc)* is the notebook (run on Hadoop cluster) in which models have been fitted and optimal hyper-parameters have been researched
+- *progetto MSDB* is a *PDF* file which contains the project presentation slides
 
 
 
